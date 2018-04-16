@@ -11,3 +11,7 @@ zone "tamales.com." {
         file "/etc/bind/db.tamales" ;
 } ;
 
+zone "96.168.172.in-addr.arpa" {
+        type master ;
+        file "/etc/bind/db.96.168.172" ;
+} ;
